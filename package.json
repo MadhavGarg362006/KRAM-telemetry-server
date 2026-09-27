@@ -1,0 +1,16 @@
+{
+  "name": "kram-telemetry-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Internet telemetry bridge for the K.R.A.M. drone intrusion detection dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
